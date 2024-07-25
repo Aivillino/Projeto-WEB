@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Changa", sans-serif;
+}
+
+body{
+    background-color: #f0daae;
+    
+}
+
+#menu-h ul{
+    padding: 0;
+    list-style: none;
+    background-color: #A3966A;
+}
+
+#menu-h ul li{
+    display:inline;
+    padding: 20px;
+}
+
+#menu-h ul li a{
+    color: #482E1D;
+    text-decoration: none;
+    padding: 10px;
+    display:inline-block;
+}
+
+#menu-h ul li a:hover{
+    color: #895D2B;
+}
+
+#menu-h ul li img{
+    width: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: #482E1D;
+    text-align: center;
+    font-size: 60px;
+    transition: .8s;
+    
+}
+
+h1:hover {
+    color:#895D2B;
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 10px;
+    color: #482E1D;
+}
+
+#DML{
+    margin-left: 10px;
+}
+
+p{
+    display: inline;
+    color:#895D2B;
+}
+
+#one{
+    width: 100px;
+    height: 152px;
+    border: 5px solid #ffe8b9;
+    margin-inline: 80px;
+    margin-left: 100px;
+}
+
+#two{
+    width: 100px;
+    height: 152px;
+    border: 5px solid #ffe8b9;
+    margin-inline: 20px;
+    margin-left: 60px;
+}
+
+#three{
+    width: 100px;
+    height: 152px;
+    border: 5px solid #ffe8b9;
+    margin-inline: 80px;
+    margin-left: 130px;
+}
+
+#four{
+    width: 100px;
+    height: 152px;
+    border: 5px solid #ffe8b9;
+    margin-inline: 80px;
+    margin-left: 80px;
+}
+
+#five{
+    width: 100px;
+    height: 152px;
+    border: 5px solid #ffe8b9;
+    margin-inline: 80px;
+    margin-right: 10px;
+}
+
+#six, #seven, #eight, #nine{
+    width: 100px;
+    height: 152px;
+    border: 5px solid #ffe8b9;
+    margin-inline: 50px;
+}
