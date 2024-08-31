@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
 
-*{
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: "Changa", sans-serif;
 }
 
-body{
+body {
     background-color: #f0daae;
-    
 }
 
 #menu-h ul{
@@ -40,13 +39,90 @@ body{
     margin-right: 20px;
 }
 
-h1{
-    text-align: center;
+h1 {
     color: #482E1D;
+    text-align: center;
     font-size: 60px;
     transition: .8s;
 }
 
-h1:hover{
-    color: #895D2B
+h1:hover {
+    color:#895D2B;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70vh;
+}
+
+.form_box{
+    display: flex;
+    flex-direction: column;
+    background-color: #482E1D;
+    border-radius: 8px;
+    width: 350px;
+}
+
+.form_box .tittle{
+    padding: 24px 32px;
+    text-align: center;
+    font-size: 32px;
+    color: #895D2B;
+}
+
+.form_box form{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
+
+}
+
+.form_box input {
+    width: calc(50% - 8px);
+    height: 48px;
+    border-radius: 8px;
+    border: thin solid #895D2B;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.form_box input[id=usuario] {
+    width: 100%;
+}
+
+.form_box input[id=senha] {
+    width: 100%;
+}
+
+.form_box button{
+    display: block;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #895D2B;
+    color: #482E1D;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form_box button:hover{
+    background-color: #785125;
+}
+
+a {
+    color: #895D2B;
+}
+
+.form_box p{
+    color: #895D2B;
+    margin-bottom: 10px;
+
 }

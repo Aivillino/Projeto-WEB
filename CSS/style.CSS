@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
 
-*{
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: "Changa", sans-serif;
 }
 
-body{
+body {
     background-color: #f0daae;
-    
 }
 
 #menu-h ul{
@@ -45,29 +44,28 @@ h1 {
     text-align: center;
     font-size: 60px;
     transition: .8s;
-    
 }
 
 h1:hover {
     color:#895D2B;
 }
 
-h2{
+h2 {
     font-size: 30px;
     margin-left: 10px;
     color: #482E1D;
 }
 
-#DML{
+#DML {
     margin-left: 10px;
 }
 
-p{
+p {
     display: inline;
-    color:#895D2B;
+    color: #895D2B;
 }
 
-#one{
+#one {
     width: 100px;
     height: 152px;
     border: 5px solid #ffe8b9;
@@ -75,7 +73,7 @@ p{
     margin-left: 100px;
 }
 
-#two{
+#two {
     width: 100px;
     height: 152px;
     border: 5px solid #ffe8b9;
@@ -83,7 +81,7 @@ p{
     margin-left: 60px;
 }
 
-#three{
+#three {
     width: 100px;
     height: 152px;
     border: 5px solid #ffe8b9;
@@ -91,7 +89,7 @@ p{
     margin-left: 130px;
 }
 
-#four{
+#four {
     width: 100px;
     height: 152px;
     border: 5px solid #ffe8b9;
@@ -99,7 +97,7 @@ p{
     margin-left: 80px;
 }
 
-#five{
+#five {
     width: 100px;
     height: 152px;
     border: 5px solid #ffe8b9;
@@ -107,7 +105,7 @@ p{
     margin-right: 10px;
 }
 
-#six, #seven, #eight, #nine{
+#six, #seven, #eight, #nine {
     width: 100px;
     height: 152px;
     border: 5px solid #ffe8b9;

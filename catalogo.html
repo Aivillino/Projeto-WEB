@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo</title>
     <link rel="stylesheet" href="CSS/style2.css">
+
 </head>
 <body>
     
     <nav id="menu-h">
         <ul>
-            <li><img src="Img/LOGO PROJETO LINOS BOOKS.4.png" alt="Desenho de dois livros"><a href="index.html">Início</a></li>
+            <li><img src="Img/LOGO PROJETO LINOS BOOKS.4.png" alt="Desenho de dois livros"></li>
+            <li><a href="index.html">Início</a></li>
             <li><a href="catalogo.html">Catálogo</a></li>
             <li><a href="clube-do-livro.html">Clube do livro</a></li>
             <li><a href="sobre-nos.html">Sobre nós</a></li>
@@ -19,7 +21,28 @@
 
     </nav>
 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
     <h1>Catálogo</h1>
+
+    <div class="container">
+
+    </div>
     
+    <article>
+        <button class="scrollTop" onclick="backTop();">
+          <img src="img/setacerta.png" alt="">
+    </article>
+
+    <script src="JS/produtos.js"></script>
 </body>
 </html>

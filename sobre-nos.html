@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre nós</title>
-    <link rel="stylesheet" href="CSS/style4.css">
+    <link rel="stylesheet" href="./CSS/style4.css"></link>
 </head>
+
 <body>
 
     <nav id="menu-h">
         <ul>
-            <li><img src="Img/LOGO PROJETO LINOS BOOKS.4.png" alt="Desenho de dois livros"><a href="index.html">Início</a></li>
+            <li><img src="Img/LOGO PROJETO LINOS BOOKS.4.png" alt="Desenho de dois livros"></li>
+            <li><a href="index.html">Início</a></li>
             <li><a href="catalogo.html">Catálogo</a></li>
             <li><a href="clube-do-livro.html">Clube do livro</a></li>
             <li><a href="sobre-nos.html">Sobre nós</a></li>
@@ -19,9 +21,43 @@
 
     </nav>
 
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
     <h1>Sobre nós</h1>
-    <p>A SIA Books é um grupo editorial formado desde 2018 com o intuito de incentivar a leitura e novos autores. Além de criar um espaço para debates sobre livros clássicos e contemporâneos entre os leitores, através do nosso clube de leitura.</p>
-    <p>Fundada em 2018 com sede em Pernambuco, a SIA Books conta com mais de 15 lojas espalhadas pelo Brasil.</p>
-    
+    <p>A SIA Books é um grupo editorial formado desde 2018 com o intuito de incentivar a leitura e a publicação de novos autores. Além de criar um espaço para debates sobre livros clássicos e contemporâneos entre os leitores, através do nosso clube de leitura com uma ótima seleção para a curadoria.</p>
+    <p>Fundada em 2018, com sede em Pernambuco, a SIA Books conta com mais de 15 lojas espalhadas pelo Brasil.</p>
+    <br><br>
+
+    <h2>Tem interesse em uma informação mais específica sobre nossa empresa? Mande para nós.</h2>
+
+    <div class="container">
+
+        <div class="form_box">
+
+            <h2 class="tittle">Perguntas</h2>
+
+            <form method="get">
+
+                <input type="text" id="assunto" placeholder="Assunto">
+
+                <textarea id="mensagem" placeholder="Faça sua pergunta"></textarea>
+
+                <button type="submit" onclick="alert('Pergunta enviada!')">Enviar</button>
+
+            </form>
+
+        </div>
+
+    </div>    
 </body>
 </html>

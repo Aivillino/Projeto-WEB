@@ -4,23 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clube do livro</title>
-    <link rel="stylesheet" href="CSS/style3.css">
+    <link rel="stylesheet" href="CSS/style3.css"></link>
 </head>
+
 <body>
     
     <nav id="menu-h">
         <ul>
-            <li><img src="Img/LOGO PROJETO LINOS BOOKS.4.png" alt="Desenho de dois livros"><a href="index.html">Início</a></li>
+            <li><img src="Img/LOGO PROJETO LINOS BOOKS.4.png" alt="Desenho de dois livros"></li>
+            <li><a href="index.html">Início</a></li>
             <li><a href="catalogo.html">Catálogo</a></li>
             <li><a href="clube-do-livro.html">Clube do livro</a></li>
             <li><a href="sobre-nos.html">Sobre nós</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
-
     </nav>
 
-    <h1>Clube do Livro</h1>
+    <h1 id="titulo">Clube do Livro</h1>
+
+    <div class="container">
+
+        <div class="form_box">
+
+            <h2 class="tittle">Login</h2>
+
+            <form method="get">
+
+                <input type="text" id="usuario" placeholder="Usuário">
+
+                <input type="password" id="senha" placeholder="senha">
+
+                <a href="">Esqueci minha senha</a>
+                <p>Ainda não faz parte? <a href="">torne-se membro</a></p>
+
+                <button type="submit" onclick="logar(); return false">Entrar</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script>
+
+        function logar(){
+
+            var login = document.getElementById('usuario').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "livialino" && senha == "livialino"){
+                alert('Sucesso!');
+                location.href = "homepage.html";
+            }else{
+                alert('Usuário ou senha inválidos. Tente novamente.');
+            }
+        }
+    </script>
     
-    <div ></div>
 </body>
 </html>
